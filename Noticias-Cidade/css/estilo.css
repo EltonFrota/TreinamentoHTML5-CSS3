@@ -124,6 +124,42 @@ h2 {
 	padding: 5px;
 	margin-top: 5px;
 }
+/*Menus laterais*/
+#lateral ul a {
+	padding: 3px;
+	line-height: 30px;
+	font-size: 0.9em;
+	display: block;
+	color: #000;
+	text-decoration: none;
+	border-bottom: #f3f3f3;
+}
+
+#lateral ul a:hover{
+	background: #f9f9f9 url('../imagens/marcador.png') no-repeat left center;
+	padding-left: 20px;
+	color: #a1a1a1;
+}
+/*Formatando formulário*/
+label {
+	display: block;
+	cursor: pointer;
+}
+
+input {
+	font-size: 0.9em;
+	padding: 5px;
+	width: 125px;	
+	background-color: #fff;
+	border: #998f8f;
+}
+
+input.botao {
+	width: 80px;
+	color: #fff;
+	background-color: #b10333;
+	border: 2px solid #870529;
+}
 
 /*Rodape*/
 #conteinar-rodape{
