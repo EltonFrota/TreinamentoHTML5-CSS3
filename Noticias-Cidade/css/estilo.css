@@ -119,11 +119,18 @@ h2 {
 	background: #294c71;
 	color: #fff;
 }
+
 .caixa-conteudo {
 	background: #fff;
 	padding: 5px;
 	margin-top: 5px;
 }
+/*Formatando a Imagem*/
+img.imagem-principal {
+	width: 98%;
+	border: 3px solid #dfdfdf;
+}
+
 /*Menus laterais*/
 #lateral ul a {
 	padding: 3px;
@@ -140,6 +147,7 @@ h2 {
 	padding-left: 20px;
 	color: #a1a1a1;
 }
+
 /*Formatando formulário*/
 label {
 	display: block;
@@ -159,6 +167,22 @@ input.botao {
 	color: #fff;
 	background-color: #b10333;
 	border: 2px solid #870529;
+}
+
+/*Formatando os Cabeçalhos*/
+h3 {
+	text-transform: uppercase;
+	display: inline;
+	font-size: 0.8em;
+	padding: 3px;
+}
+.destaque h3 { /*Para evitar colocar mais class do que o necessário, economia de cód.*/
+	background: #b10333;
+	color: #fff;
+}
+.entrevista h3 { /*Para evitar colocar mais class do que o necessário, economia de cód.*/
+	background: #de003e;
+	color: #000;
 }
 
 /*Rodape*/
