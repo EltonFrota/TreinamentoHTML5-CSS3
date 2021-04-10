@@ -29,6 +29,13 @@ body {
 /*Barra de navegação topo*/
 
 /*ul { /*Formata todas as tabelas do site*/
+a:link a:visited {
+	color: #b10333;
+	padding: 2px;
+}
+a:hover {
+	color: #e50040;
+}
 
 ul {
 	margin: 0;
@@ -67,7 +74,7 @@ body.economia #navegacao a#economia,
 body.saude #navegacao a#saude,
 body.ciencia #navegacao a#ciencia,
 body.fotos #navegacao a#fotos, {
-	color: #fff;
+	color: #FFF;
 	background: #de003e;
 	cursor: text;
 }
@@ -131,7 +138,7 @@ img.imagem-principal {
 	border: 3px solid #dfdfdf;
 }
 
-/*Menus laterais*/
+/*Menu laterais*/
 #lateral ul a {
 	padding: 3px;
 	line-height: 30px;
@@ -199,6 +206,7 @@ h3 {
 
 #lista-noticias li a {
 	text-decoration: none;
+
 }
 
 #lista-noticias li a h3 {
@@ -214,6 +222,7 @@ h3 {
 
 #lista-noticias li a p {
 	font-size: 0.7em;
+	color: #000
 }
 
 /*Rodape*/
